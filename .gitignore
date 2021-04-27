@@ -457,3 +457,10 @@ TSWLatexianTemp*
 
 # Code coverage
 cov.xml
+
+# Temporary data and models
+data/raw/*
+data/prepared/*
+!data/raw/cards.zip
+models/*
+!models/.gitkeep

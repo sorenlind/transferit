@@ -1,0 +1,5 @@
+FROM tensorflow/serving:latest
+
+COPY ./models/wrapped/ /models/transferit/
+
+ENV MODEL_NAME=transferit
