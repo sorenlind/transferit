@@ -12,6 +12,7 @@ setup(
     version=VERSION,
     description="Train a model using transfer learning and serve it using TF Serving.",
     long_description=LONG_DESCRIPTION,
+    long_description_content_type="text/markdown",
     author="Soren Kristiansen",
     author_email="sorenlind@mac.com",
     url="",
