@@ -1,7 +1,8 @@
 # transferit
 
-This repo contains a Python package that can help you train a model using transfer
-learning and serve the model with TensorFlow Serving and Docker.
+This repository contains a Python package that can help you train an image
+classification model using transfer learning and serve the model with TensorFlow Serving
+and Docker.
 
 The repo contains sample images you can use to train the model to tell a certain kind of
 collectible playing card, namely _Magic: The Gathering_ cards from other objects. These,
@@ -110,7 +111,7 @@ docker run -t --rm -p 8501:8501 transferit
 
 Once the container is running, you can access it as shown in the example below. The
 `notebooks` folder contains a notebook called `02 API Example usage.ipynb` which has
-similar code and classifies two imaes from the dev dataset.
+similar code and classifies two images from the dev dataset.
 
 ```python
 import base64
